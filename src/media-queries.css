@@ -1,0 +1,64 @@
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .texto__paragrafo {
+        font-size: 1rem;
+    }
+
+    .container__botao {
+        min-width: 120px;
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+
+    .container {
+        padding: 20px;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .container__input {
+        font-size: 1rem;
+        padding: 12px;
+    }
+
+    .container__botoes {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .container__botao {
+        width: 100%;
+        min-width: unset;
+    }
+
+    .container {
+        border-radius: 8px;
+    }
+}
+
+@media (max-width: 360px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .texto__paragrafo {
+        font-size: 0.9rem;
+    }
+
+    .container__botao {
+        font-size: 0.9rem;
+    }
+}
+
